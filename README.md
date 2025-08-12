@@ -37,8 +37,8 @@ The system uses **Retrieval-Augmented Generation (RAG)** with **LangChain**, **H
 ├── tools.py               # Calculator and other utility tools
 ├── requirements.txt       # Python dependencies
 └── README.md              # Project documentation
-
-## **How It Works**
+```
+## How It Works
 - **Upload PDF** → Extracts text using PyPDFLoader.
 - **Split & Embed** → Text is split into chunks and converted into embeddings (HuggingFaceEmbeddings).
 - **Store in FAISS** → Embeddings are stored for fast retrieval.
@@ -50,8 +50,10 @@ The system uses **Retrieval-Augmented Generation (RAG)** with **LangChain**, **H
 1. **Clone the repository** :
   - git clone https://github.com/your-username/ai-pdf-chatbot.git
   - cd ai-pdf-chatbot
+    
 2. **Install dependencies**
   - pip install -r requirements.txt
+    
 3️. **Run the Streamlit app**
   - streamlit run app.py
 
@@ -61,3 +63,9 @@ The system uses **Retrieval-Augmented Generation (RAG)** with **LangChain**, **H
 
 2. Do math calculations:
   - "calc: 15 * 12 + 30"
+
+
+## Author
+Developed by **Neeraj V N** – Data Science - intern
+- Email: neerajvn03@gmail.com.com
+- Linkedin : https://www.linkedin.com/in/neeraj-v-n-097643354
