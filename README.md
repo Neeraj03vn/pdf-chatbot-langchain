@@ -64,6 +64,8 @@ The system uses **Retrieval-Augmented Generation (RAG)** with **LangChain**, **H
 2. Do math calculations:
   - "calc: 15 * 12 + 30"
 
+## Work Flow
+<img width="3600" height="1800" alt="ai_pdf_chatbot_architecture_flow" src="https://github.com/user-attachments/assets/f247a84d-6deb-49f0-bf3b-5e0d573dca01" />
 
 ## Author
 Developed by **Neeraj V N** – Data Science - intern
